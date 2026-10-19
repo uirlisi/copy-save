@@ -55,13 +55,11 @@ The **Back up this game** switch pauses snapshots for one game without deleting 
 
 **Steam Cloud / GOG Galaxy cloud saves.** After a restore, the launcher may report a sync conflict next time you start the game. Choose the **local** files to keep the restored save.
 
-**Restore with the game closed.** Games keep progress in memory and may overwrite a restored save, or lock its files. copy-save warns you if the game is still running.
+**Restore with the game closed.** Games keep progress in memory and may overwrite a restored save, or lock its files. This tool warns you if the game is still running.
 
 ## Where settings are stored
 
 Settings live in `%APPDATA%\copy-save\config.json`. Uninstalling copy-save leaves both the settings and your backup zips in place.
-
-If you used a version before 1.0 (which kept `copy_save_config.json` next to the script), that file is copied over automatically on first launch.
 
 ## Running from source
 

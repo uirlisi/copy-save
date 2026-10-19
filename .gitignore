@@ -1,0 +1,5 @@
+__pycache__/
+.shortcut
+copy_save_config.json
+build/
+dist/
